@@ -7,7 +7,9 @@ import java.util.UUID;
 @Getter
 @Setter
 @ToString
-//@AllArgsConstructor
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 public class UserInfo {
 
     @Setter(AccessLevel.NONE)
